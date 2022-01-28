@@ -1,0 +1,11 @@
+.mainSection{
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    
+}
+
+.button{
+    margin-top: 10px;
+}
