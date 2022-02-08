@@ -31,7 +31,7 @@ function paintingList (){
     listContent += liTask; //+= para que se agregen todos los items de la lista y no solo uno. 
   }
   list.innerHTML = listContent; // estoy agregando listContent a la list (ul)
-  console.log(listContent);
+  
 }
 
 function updateList() {
@@ -52,10 +52,10 @@ function updateList() {
       updateList();
     });
   }
-  console.log(allInputs);
+  
 }
 
-paintingList(); 
+ 
 updateList();
 
 
